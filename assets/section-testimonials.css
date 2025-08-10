@@ -1,0 +1,152 @@
+.testimonials {
+    padding: 80px 0;
+    background: white;
+}
+
+.testimonials__heading {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 3rem;
+    color: #333;
+}
+
+.testimonials__wrapper {
+    position: relative;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.testimonials__container {
+    position: relative;
+    overflow: hidden;
+    height: 300px;
+}
+
+.testimonial-card {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    opacity: 0;
+    transform: translateX(50px);
+    transition: all 0.5s ease;
+}
+
+.testimonial-card.active {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+.testimonial-card__content {
+    text-align: center;
+    padding: 40px 20px;
+    background: #f8f8f8;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.testimonial-card__rating {
+    font-size: 1.5rem;
+    color: #ffd700;
+    margin-bottom: 20px;
+}
+
+.testimonial-card__quote {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    margin-bottom: 30px;
+    font-style: italic;
+    color: #555;
+}
+
+.testimonial-card__author {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.testimonial-card__avatar {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+
+.testimonial-card__avatar img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.testimonial-card__info {
+    text-align: left;
+}
+
+.testimonial-card__name {
+    font-weight: bold;
+    color: #333;
+    margin: 0 0 5px 0;
+}
+
+.testimonial-card__title {
+    color: #666;
+    font-size: 0.9rem;
+    margin: 0;
+}
+
+.testimonials__dots {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 30px;
+}
+
+.testimonials__dot {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    border: none;
+    background: #ddd;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.testimonials__dot.active,
+.testimonials__dot:hover {
+    background: #ff6b35;
+}
+
+@media (max-width: 768px) {
+    .testimonials {
+        padding: 60px 0;
+    }
+
+    .testimonials__heading {
+        font-size: 2rem;
+        margin-bottom: 2rem;
+    }
+
+    .testimonials__container {
+        height: auto;
+        min-height: 280px;
+    }
+
+    .testimonial-card__content {
+        padding: 30px 15px;
+    }
+
+    .testimonial-card__quote {
+        font-size: 1.1rem;
+    }
+
+    .testimonial-card__author {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .testimonial-card__info {
+        text-align: center;
+    }
+}
