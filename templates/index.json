@@ -1,75 +1,103 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
-    "image_banner": {
-      "type": "image-banner",
+    "hero_video_QDF6jh": {
+      "type": "hero-video",
+      "name": "Hero Video Banner",
+      "settings": {
+        "video_url": "shopify://files/videos/glow in the dark Banner.mp4",
+        "fallback_image": "shopify://shop_images/Screenshot_2025-08-10_091215.png",
+        "heading": "Welcome to BricksActive",
+        "subheading": "Discover our premium collection",
+        "cta_text": "Shop Now",
+        "cta_link": "shopify://collections"
+      }
+    },
+    "featured_collection_KgGUC9": {
+      "type": "featured-collection",
+      "name": "t:sections.featured-collection.presets.name",
+      "settings": {
+        "collection": "15-oz-cup",
+        "products_to_show": 8,
+        "title": "Bottle collection",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "columns_desktop": 4,
+        "enable_desktop_slider": false,
+        "full_width": false,
+        "show_view_all": false,
+        "view_all_style": "solid",
+        "color_scheme": "",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "quick_add": "standard",
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "testimonials_j3JJFm": {
+      "type": "testimonials",
       "blocks": {
-        "heading": {
-          "type": "heading",
+        "testimonial_J4cNq9": {
+          "type": "testimonial",
           "settings": {
-            "heading": "Browse our latest products",
-            "heading_size": "h0"
+            "avatar": "shopify://shop_images/smile-senior-woman-hiking-woods-holiday-travel-vacation-adventure-portrait-face-trekking-person-forest-381551216.webp",
+            "name": "Sarah Johnson",
+            "title": "New York, NY",
+            "quote": "Amazing products and exceptional service! Highly recommended.",
+            "rating": 5
           }
         },
-        "button": {
-          "type": "buttons",
+        "testimonial_h9te33": {
+          "type": "testimonial",
           "settings": {
-            "button_label_1": "Shop all",
-            "button_link_1": "shopify://collections/all",
-            "button_style_secondary_1": true,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
+            "avatar": "shopify://shop_images/images_10.jpg",
+            "name": "Mike Chen",
+            "title": "Los Angeles, CA",
+            "quote": "Quality products that exceed expectations every time.",
+            "rating": 5
+          }
+        },
+        "testimonial_NhfMjH": {
+          "type": "testimonial",
+          "settings": {
+            "avatar": "shopify://shop_images/istockphoto-1080820568-612x612.jpg",
+            "name": "Emma Davis",
+            "title": "Chicago, IL",
+            "quote": "Fast shipping and beautiful products. Love shopping here!",
+            "rating": 4
           }
         }
       },
       "block_order": [
-        "heading",
-        "button"
+        "testimonial_J4cNq9",
+        "testimonial_h9te33",
+        "testimonial_NhfMjH"
       ],
+      "name": "Testimonials Carousel",
       "settings": {
-        "image_overlay_opacity": 40,
-        "image_height": "large",
-        "desktop_content_position": "bottom-center",
-        "show_text_box": false,
-        "image_behavior": "none",
-        "desktop_content_alignment": "center",
-        "color_scheme": "scheme-3",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": false,
-        "show_text_below": false
-      }
-    },
-    "featured_collection": {
-      "type": "featured-collection",
-      "settings": {
-        "title": "Featured products",
-        "heading_size": "h2",
-        "description": "",
-        "show_description": false,
-        "description_style": "body",
-        "collection": "all",
-        "products_to_show": 8,
-        "columns_desktop": 4,
-        "color_scheme": "scheme-1",
-        "full_width": false,
-        "show_view_all": true,
-        "view_all_style": "solid",
-        "enable_desktop_slider": false,
-        "swipe_on_mobile": false,
-        "image_ratio": "adapt",
-        "image_shape": "default",
-        "show_secondary_image": true,
-        "show_vendor": false,
-        "show_rating": false,
-        "quick_add": "none",
-        "columns_mobile": "2",
-        "padding_top": 44,
-        "padding_bottom": 36
+        "heading": "What Our Customers Say"
       }
     }
   },
   "order": [
-    "image_banner",
-    "featured_collection"
+    "hero_video_QDF6jh",
+    "featured_collection_KgGUC9",
+    "testimonials_j3JJFm"
   ]
 }
