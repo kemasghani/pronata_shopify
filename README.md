@@ -65,8 +65,8 @@ The goal was to create a pixel-perfect, interactive, and optimized Shopify homep
 ---
 
 ## 📂 Project Links
-- **GitHub Repo:** [🔗 Click here](#)
-- **Live Demo Store:** [🔗 Click here](#)
+- **GitHub Repo:** [https://github.com/kemasghani/pronata_shopify.git](#)
+- **Live Demo Store:** [https://4mxn4egjy78uoooa-90620723475.shopifypreview.com](#)
 
 ---
 
