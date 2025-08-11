@@ -13,8 +13,8 @@
       "type": "hero-video",
       "name": "Hero Video Banner",
       "settings": {
-        "video_url": "shopify://files/videos/glow in the dark Banner.mp4",
-        "fallback_image": "shopify://shop_images/Screenshot_2025-08-10_091215.png",
+        "video_url": "shopify://files/videos/short lego.mp4",
+        "fallback_image": "shopify://shop_images/Screenshot_2025-08-11_192504.png",
         "heading": "Welcome to BricksActive",
         "subheading": "Discover our premium collection",
         "cta_text": "Shop Now",
@@ -59,7 +59,7 @@
             "avatar": "shopify://shop_images/smile-senior-woman-hiking-woods-holiday-travel-vacation-adventure-portrait-face-trekking-person-forest-381551216.webp",
             "name": "Sarah Johnson",
             "title": "New York, NY",
-            "quote": "Amazing products and exceptional service! Highly recommended.",
+            "quote": "LEGO never fails to spark creativity and bring endless building fun for all ages!",
             "rating": 5
           }
         },
@@ -69,7 +69,7 @@
             "avatar": "shopify://shop_images/images_10.jpg",
             "name": "Mike Chen",
             "title": "Los Angeles, CA",
-            "quote": "Quality products that exceed expectations every time.",
+            "quote": "Building with LEGO is pure joy — every brick unlocks a world of imagination.",
             "rating": 5
           }
         },
@@ -79,7 +79,7 @@
             "avatar": "shopify://shop_images/istockphoto-1080820568-612x612.jpg",
             "name": "Emma Davis",
             "title": "Chicago, IL",
-            "quote": "Fast shipping and beautiful products. Love shopping here!",
+            "quote": "LEGO turns simple bricks into endless adventures and creative possibilities.",
             "rating": 4
           }
         }
